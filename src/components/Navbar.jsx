@@ -22,11 +22,11 @@ const Navbar = () => {
       fixed top-0 left-0 w-full flex items-center justify-between px-5 sm:px-15 md:px-16 lg:px-24 xl:px-32 transition-all duration-500 z-50
       ${isScrolled ? "bg-white/80 shadow-md text-gray-700 backdrop-blur-lg py-3 md:py-4" : "py-4 md:py-6"}
     `}>
-      <h1 className={`text-2xl font-bold ${isScrolled ? "text-gray-600" : "text-white"} `}><Link to="/">BreevHomes</Link></h1>
+      <h1 className={`text-2xl font-bold ${isScrolled ? "text-gray-600" : "text-black"} `}><Link to="/">BreevHomes</Link></h1>
 
       <div className="hidden md:flex items-center gap-4 lg:gap-8">
         {Links.map((link) => (
-          <a key={link.name} href={link.link} className={`group flex flex-col gap-0.5 ${isScrolled ? "text-gray-700" : "text-white"}`}>
+          <a key={link.name} href={link.link} className={`group flex flex-col gap-0.5 ${isScrolled ? "text-gray-700" : "text-black"}`}>
             {link.name}
             <div className={`${isScrolled ? "bg-gray-700" : "bg-white"} h-0.5 w-0 group-hover:w-full transition-all duration-300`} />
           </a>
