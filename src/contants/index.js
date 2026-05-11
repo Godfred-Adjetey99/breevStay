@@ -1,4 +1,8 @@
 import fronView from "../assets/frontView.png";
+import ApartmentBedroom from "../assets/ApartmentBedroom.png";
+import OpenhallApartment from "../assets/OpenhallApartment.png";
+import ApartmentOutdoor from "../assets/ApartmentOutdoor.png";
+import ApartmentWashroom from "../assets/ApartmentWashroom.png";
 
 export const Links = [
   { name: "Home", link: "/" },
@@ -36,8 +40,26 @@ export const featuredRooms = [
     id: "apartment1",
     name: "Apartment",
     description: "A cozy apartment in the heart of the city.",
-    price: "",
-    image: "https://via.placeholder.com/400x300?text=Apartment+1",
+    price: "6300",
+    image: ApartmentBedroom,
+    images: [
+      {
+        name: "apartmentOpenHall",
+        value: OpenhallApartment,
+      },
+      {
+        name: "ApartmentOutdoor",
+        value: ApartmentOutdoor,
+      },
+      {
+        name: "ApartmentWashroom",
+        value: ApartmentWashroom,
+      },
+      {
+        name: "ApartmentBedroom",
+        value: ApartmentBedroom,
+      },
+    ],
   },
 ];
 

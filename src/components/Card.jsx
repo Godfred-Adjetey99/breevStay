@@ -13,11 +13,11 @@ const Card = ({ room }) => {
             {room.description}
         </p>
         <div className="flex justify-between items-center">
-        <button type="button" class="bg-indigo-600 hover:bg-indigo-700 transition cursor-pointer mt-4 mb-3 ml-2 px-6 py-2 font-medium rounded-md text-white text-sm">
+        <button type="button" class="bg-indigo-600 hover:bg-indigo-700 transition cursor-pointer mt-4 mb-3 ml-2 px-5 py-2 font-medium rounded-md text-white text-sm">
             Read More
         </button>
-        <p class="text-gray-900 text-lg font-semibold mr-2">
-            ${room.price}
+        <p class="text-gray-900 text-md font-semibold mr-2 text-left">
+            ${room.price / 100} per night
         </p>
         </div>
     </div>
