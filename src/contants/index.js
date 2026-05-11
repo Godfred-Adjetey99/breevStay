@@ -1,4 +1,5 @@
 import fronView from "../assets/frontView.png";
+
 export const Links = [
   { name: "Home", link: "/" },
   {
@@ -11,7 +12,7 @@ export const Links = [
   },
   {
     name: "Contact",
-    link: "/contact",
+    link: "/#contact",
   },
 ];
 
@@ -54,11 +55,6 @@ export const featuredRooms = [
         value:
           "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsdXhlJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
       },
-      {
-        name: "living room",
-        value:
-          "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsdXhlJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      },
     ],
   },
 
@@ -88,8 +84,11 @@ export const featuredRooms = [
   },
 ];
 
-export const Contact = [
+export const ContactInfo = [
   { name: "Email", value: "breevhomes@gmail.com" },
   { name: "Phone", value: "+1 (555) 123-4567" },
-  { name: "Address", value: "123 Main Street, Anytown, USA" },
+  {
+    name: "Address",
+    value: "123 Main Street, Anytown, USA",
+  },
 ];
