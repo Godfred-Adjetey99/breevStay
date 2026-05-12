@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="flex flex-wrap pt-7 pb-30">
         {ContactInfo.map((item) => (
       <div className="flex justify-center items-center">
-        <p className="font-semibold text-md pl-3 pr-2 text-center"> {item.name}:</p>
+        <p className="font-semibold text-lg pl-3 pr-2 text-center"> {item.name}:</p>
         <p className="text-lg font-playfair text-center pl-2">{item.value}</p>
       </div>
     ))}
