@@ -3,6 +3,10 @@ import ApartmentBedroom from "../assets/ApartmentBedroom.png";
 import OpenhallApartment from "../assets/OpenhallApartment.png";
 import ApartmentOutdoor from "../assets/ApartmentOutdoor.png";
 import ApartmentWashroom from "../assets/ApartmentWashroom.png";
+import room1Bed from "../assets/room1Bed.jpeg";
+import room1Indoors from "../assets/room1Indoors.jpeg";
+import room1Outdoor from "../assets/room1Outdoor.jpeg";
+
 import freeWifiIcon from "../assets/freeWifiIcon.svg";
 import roomServiceIcon from "../assets/roomServiceIcon.svg";
 import homeIcon from "../assets/homeIcon.svg";
@@ -103,30 +107,144 @@ export const featuredRooms = [
   },
   {
     id: "room1",
-    name: "Single Room",
+    name: "Single Room 1",
     descriptionCard:
-      "A cozy single room apartment in the heart of the city and closer to the beach.",
+      "A cozy single room with a balcony in the heart of the city and closer to the beach.",
     description2:
       "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
     priceCents: "3500",
-    image: ApartmentBedroom,
+    image: room1Bed,
     images: [
       {
-        name: "apartmentOpenHall",
-        value: OpenhallApartment,
+        name: "room1Ben",
+        value: room1Bed,
       },
       {
-        name: "ApartmentOutdoor",
-        value: ApartmentOutdoor,
+        name: "room1Indoors",
+        value: room1Indoors,
       },
       {
-        name: "ApartmentWashroom",
-        value: ApartmentWashroom,
+        name: "room1Outdoor",
+        value: room1Outdoor,
+      },
+      // {
+      //   name: "ApartmentBedroom",
+      //   value: ApartmentBedroom,
+      // },
+    ],
+    roomCommonData: [
+      {
+        icon: homeIcon,
+        title: "Clean & Safe Stay",
+        description: "A well-maintained and hygienic space just for you.",
       },
       {
-        name: "ApartmentBedroom",
-        value: ApartmentBedroom,
+        icon: badgeIcon,
+        title: "Enhanced Cleaning",
+        description: "This host follows Staybnb's strict cleaning standards.",
       },
+      {
+        icon: locationFilledIcon,
+        title: "Excellent Location",
+        description: "90% of guests rated the location 5 stars.",
+      },
+      {
+        icon: heartIcon,
+        title: "Smooth Check-In",
+        description: "100% of guests gave check-in a 5-star rating.",
+      },
+    ],
+
+    facilityIcons: [
+      { name: " Free Wifi", icon: freeWifiIcon },
+      { name: "Room Service", icon: roomServiceIcon },
+      { name: " Condition Breakfast", icon: freeBreakfastIcon },
+      { name: "Air Condition", icon: airConditioner },
+    ],
+  },
+  {
+    id: "room2",
+    name: "Single Room 2",
+    descriptionCard:
+      "A cozy single room with a balcony in the heart of the city and closer to the beach.",
+    description2:
+      "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
+    priceCents: "3500",
+    image: room1Bed,
+    images: [
+      {
+        name: "room1Ben",
+        value: room1Bed,
+      },
+      {
+        name: "room1Indoors",
+        value: room1Indoors,
+      },
+      {
+        name: "room1Outdoor",
+        value: room1Outdoor,
+      },
+      // {
+      //   name: "ApartmentBedroom",
+      //   value: ApartmentBedroom,
+      // },
+    ],
+    roomCommonData: [
+      {
+        icon: homeIcon,
+        title: "Clean & Safe Stay",
+        description: "A well-maintained and hygienic space just for you.",
+      },
+      {
+        icon: badgeIcon,
+        title: "Enhanced Cleaning",
+        description: "This host follows Staybnb's strict cleaning standards.",
+      },
+      {
+        icon: locationFilledIcon,
+        title: "Excellent Location",
+        description: "90% of guests rated the location 5 stars.",
+      },
+      {
+        icon: heartIcon,
+        title: "Smooth Check-In",
+        description: "100% of guests gave check-in a 5-star rating.",
+      },
+    ],
+
+    facilityIcons: [
+      { name: " Free Wifi", icon: freeWifiIcon },
+      { name: "Room Service", icon: roomServiceIcon },
+      { name: " Condition Breakfast", icon: freeBreakfastIcon },
+      { name: "Air Condition", icon: airConditioner },
+    ],
+  },
+  {
+    id: "room3",
+    name: "Single Room 3",
+    descriptionCard:
+      "A cozy single room with a balcony in the heart of the city and closer to the beach.",
+    description2:
+      "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
+    priceCents: "3500",
+    image: room1Bed,
+    images: [
+      {
+        name: "room1Ben",
+        value: room1Bed,
+      },
+      {
+        name: "room1Indoors",
+        value: room1Indoors,
+      },
+      {
+        name: "room1Outdoor",
+        value: room1Outdoor,
+      },
+      // {
+      //   name: "ApartmentBedroom",
+      //   value: ApartmentBedroom,
+      // },
     ],
     roomCommonData: [
       {
