@@ -35,12 +35,12 @@ export const Links = [
 export const HeroSection = [
   {
     title: "BreevStay",
-    descriptionh1: "Discover Your Perfect Stay with BreevStay",
+    descriptionh1: "Discover Your Perfect Stay with BreevStay in Nungua",
     descriptionp:
       "Unparalleled luxury and comfort await you at BreevStay. Start your journey today",
     images: [
       {
-        name: "heroFrontView",
+        name: "heroFrontView of a rental apartment in accra",
         value: fronView,
       },
     ],
