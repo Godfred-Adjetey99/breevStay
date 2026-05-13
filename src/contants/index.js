@@ -6,7 +6,9 @@ import ApartmentWashroom from "../assets/ApartmentWashroom.png";
 import room1Bed from "../assets/room1Bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
-
+import room2Bed from "../assets/room2Bed.jpeg";
+import room2Washroom from "../assets/room2Washroom.jpeg";
+import room2Outside from "../assets/room2Outside.jpeg";
 import freeWifiIcon from "../assets/freeWifiIcon.svg";
 import roomServiceIcon from "../assets/roomServiceIcon.svg";
 import homeIcon from "../assets/homeIcon.svg";
@@ -50,11 +52,11 @@ export const HeroSection = [
 export const featuredRooms = [
   {
     id: "apartment1",
-    name: "Apartment",
+    name: "Apartment in Nungua",
     descriptionCard:
-      "A cozy single room apartment in the heart of the city and closer to the beach.",
+      "A cozy single room apartment in Nungua near coco beach, 50m away from the beach with wifi, a kingsize bed and aircondition.",
     description2:
-      "Indulge in the epitome of luxury and comfort at BreevStay. Our meticulously designed rooms offer a haven of tranquility, where every detail is crafted to perfection. From plush bedding to elegant decor, we ensure that your stay with us is nothing short of extraordinary. Whether you're seeking a romantic getaway or a peaceful retreat, our rooms provide the perfect sanctuary for you to unwind and create unforgettable memories.",
+      "Indulge in the epitome of luxury and comfort at BreevStay. Our meticulously designed rooms offer a haven of tranquility, where every detail is crafted to perfection. From plush bedding to elegant decor, we ensure that your stay with us is nothing short of extraordinary. Whether you're seeking a romantic getaway or a peaceful retreat, our rooms provide the perfect sanctuary for you to unwind and create unforgettable memories and it has a perfect view to the sea straight from your balcony",
     priceCents: "5500",
     image: ApartmentBedroom,
     images: [
@@ -101,7 +103,7 @@ export const featuredRooms = [
     facilityIcons: [
       { name: " Free Wifi", icon: freeWifiIcon },
       { name: "Room Service", icon: roomServiceIcon },
-      { name: " Condition Breakfast", icon: freeBreakfastIcon },
+      { name: " Conditional Breakfast", icon: freeBreakfastIcon },
       { name: "Air Condition", icon: airConditioner },
     ],
   },
@@ -158,7 +160,7 @@ export const featuredRooms = [
     facilityIcons: [
       { name: " Free Wifi", icon: freeWifiIcon },
       { name: "Room Service", icon: roomServiceIcon },
-      { name: " Condition Breakfast", icon: freeBreakfastIcon },
+      { name: " Conditional Breakfast", icon: freeBreakfastIcon },
       { name: "Air Condition", icon: airConditioner },
     ],
   },
@@ -168,21 +170,21 @@ export const featuredRooms = [
     descriptionCard:
       "A cozy single room with a balcony in the heart of the city and closer to the beach.",
     description2:
-      "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
+      "Discover the perfect blend of opulence and comfort at BreevStay in nungua coco beach, where every room is a sanctuary of indulgence. Whether you're here for a romantic escape or a leisurely retreat, our luxurious accommodations promise an unforgettable experience that will leave you longing to return.",
     priceCents: "3500",
-    image: room1Bed,
+    image: room2Bed,
     images: [
       {
-        name: "room1Ben",
-        value: room1Bed,
+        name: "room2Ben",
+        value: room2Bed,
       },
       {
-        name: "room1Indoors",
-        value: room1Indoors,
+        name: "room2Indoors",
+        value: room2Washroom,
       },
       {
         name: "room1Outdoor",
-        value: room1Outdoor,
+        value: room2Outside,
       },
       // {
       //   name: "ApartmentBedroom",
@@ -215,7 +217,7 @@ export const featuredRooms = [
     facilityIcons: [
       { name: " Free Wifi", icon: freeWifiIcon },
       { name: "Room Service", icon: roomServiceIcon },
-      { name: " Condition Breakfast", icon: freeBreakfastIcon },
+      { name: " Conditional Breakfast", icon: freeBreakfastIcon },
       { name: "Air Condition", icon: airConditioner },
     ],
   },
@@ -272,7 +274,7 @@ export const featuredRooms = [
     facilityIcons: [
       { name: " Free Wifi", icon: freeWifiIcon },
       { name: "Room Service", icon: roomServiceIcon },
-      { name: " Condition Breakfast", icon: freeBreakfastIcon },
+      { name: " Conditional Breakfast", icon: freeBreakfastIcon },
       { name: "Air Condition", icon: airConditioner },
     ],
   },
