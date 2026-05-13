@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import { featuredRooms } from "./contants";
 import { useEffect } from "react";
 import { RiUserLocationFill } from "@remixicon/react";
+import { RiUserLocationLine } from "@remixicon/react";
 
 
 const RoomDetails = () => {
@@ -23,8 +24,8 @@ const RoomDetails = () => {
       </div>
 
       <div className="flex items-center gap-2 mt-4 text-gray-500">
-        <RiUserLocationFill />
-        <span>Nungua Coco Beach, Opposite Blackmama</span>
+        
+        <a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7">Nungua Coco Beach, Opposite Blackmama Resort </a><RiUserLocationFill />
       </div>
       
       <div className="flex flex-col lg:flex-row gap-6 mt-6">
@@ -48,7 +49,7 @@ const RoomDetails = () => {
         <div className="flex flex-col ">
           <h1 className="text-3xl md:text-4xl font-playfair">Experience Luxury Like Never Before</h1>
           
-          <div className="flex flex-wrap items-center mt-3 mb-6 gap-4">
+          <div className="flex flex-wrap items-center mt-3 mb-2 gap-4">
             {room?.facilityIcons.map((item, index) => (
               <div key={index} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-gray-100">
                 <img src={item.icon} alt={item.name} className="w-5 h-5" />
@@ -77,7 +78,25 @@ const RoomDetails = () => {
             <div>
               <p className="max-w-3xl border-y border-gray-300 ny-15 py-10 text-gray-500">{room?.description2}</p>
             </div>
+
+            <div className="flex flex-col justify-center itmes-center my-10  w-full">
+              <h1 className="text-3xl font-playfair text-center">Google Map Loction</h1>
+              <div className="flex my-5 justify-center items-center">
+                <span className="mr-2"><RiUserLocationFill/></span><a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7"> Nungua Coco Beach, Opposite Blackmama Resort </a>
+                
+              </div>
+              <div className="flex justify-center items-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d221.35825740686576!2d-0.09106637436764563!3d5.5852956244977685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sgh!4v1778637177325!5m2!1sen!2sgh" width="600" height="450" style={{border: 0}} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              
+              
+
+              
+
+            </div>
     </div>
+
+    
 
     
   )

@@ -13,7 +13,7 @@ const Card = ({ room }) => {
             {room.descriptionCard}
         </p>
         <div className="flex justify-between items-center">
-        <button type="button" class="bg-indigo-600 hover:bg-indigo-700 transition cursor-pointer mt-4 mb-3 ml-2 px-5 py-2 font-medium rounded-md text-white text-sm">
+        <button type="button" class="bg-violet-600 hover:bg-violet-700 transition cursor-pointer mt-4 mb-3 ml-2 px-5 py-2 font-medium rounded-md text-white text-sm">
             Read More
         </button>
         <p class="text-gray-900 text-md font-semibold mr-2 text-left ml-1">
