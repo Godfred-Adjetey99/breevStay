@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 import { featuredRooms } from "./contants";
 import { useEffect } from "react";
 import { RiUserLocationFill } from "@remixicon/react";
-import { RiUserLocationLine } from "@remixicon/react";
+
 
 
 const RoomDetails = () => {
@@ -83,7 +83,6 @@ const RoomDetails = () => {
               <h1 className="text-3xl font-playfair text-center">Google Map Loction</h1>
               <div className="flex my-5 justify-center items-center">
                 <span className="mr-2"><RiUserLocationFill/></span><a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7"> Nungua Coco Beach, Opposite Blackmama Resort </a>
-                
               </div>
               <div className="flex justify-center items-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d221.35825740686576!2d-0.09106637436764563!3d5.5852956244977685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sgh!4v1778637177325!5m2!1sen!2sgh" width="600" height="450" style={{border: 0}} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
