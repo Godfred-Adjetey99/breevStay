@@ -54,7 +54,7 @@ export const featuredRooms = [
     id: "apartment1",
     name: "Apartment in Nungua",
     descriptionCard:
-      "A cozy single room apartment in Nungua near coco beach, 50m away from the beach with wifi, a kingsize bed and aircondition.",
+      "A cozy single room apartment in Nungua near coco beach, 50 meters away from the beach with wifi, a kingsize bed and aircondition.",
     description2:
       "Indulge in the epitome of luxury and comfort at BreevStay. Our meticulously designed rooms offer a haven of tranquility, where every detail is crafted to perfection. From plush bedding to elegant decor, we ensure that your stay with us is nothing short of extraordinary. Whether you're seeking a romantic getaway or a peaceful retreat, our rooms provide the perfect sanctuary for you to unwind and create unforgettable memories and it has a perfect view to the sea straight from your balcony, ",
     priceCents: "5500",
