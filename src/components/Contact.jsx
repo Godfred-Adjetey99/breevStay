@@ -1,5 +1,6 @@
 import Title from "./Title"
 import { ContactInfo } from "../contants"
+import { Link } from "react-router-dom"
 
 const Contact = () => {
   return (
@@ -9,8 +10,13 @@ const Contact = () => {
         {ContactInfo.map((item) => (
       <div className="flex justify-center items-center">
           <img src={item.icon} alt={item.iconName} />
+          
           <p className="font-semibold text-lg pl-3 pr-2 text-center"> {item.name}:</p>
+          <Link to={item.link} target="_blank" >
           <p className="text-lg font-playfair text-center pl-2">{item.value}</p>
+          </Link>
+          
+          
         </div>
       ))}
       <div className="mt-15 lg:ml-100">

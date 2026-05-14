@@ -311,11 +311,16 @@ export const testimonials = [
 ];
 
 export const ContactInfo = [
-  { name: "Email", value: "breevstay@gmail.com" },
-  { name: "Phone", value: "+233 550906480" },
+  {
+    name: "Email",
+    value: "breevstay1@gmail.com",
+    link: "https://breevstay1@gmail.com",
+  },
+  { name: "Phone", value: "+233 550906480", link: "" },
   {
     name: "Address",
     value: "Coco Beach Opposite Blackmama Resort, Nungua , Ghana",
+    link: "https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7",
   },
 ];
 

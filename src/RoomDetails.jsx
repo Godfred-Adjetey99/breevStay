@@ -25,7 +25,7 @@ const RoomDetails = () => {
 
       <div className="flex items-center gap-2 mt-4 text-gray-500">
         
-        <a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7">Nungua Coco Beach, Opposite Blackmama Resort </a><RiUserLocationFill />
+        <a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7" target="_blank">Nungua Coco Beach, Opposite Blackmama Resort </a><RiUserLocationFill />
       </div>
       
       <div className="flex flex-col lg:flex-row gap-6 mt-6">
@@ -82,7 +82,7 @@ const RoomDetails = () => {
             <div className="flex flex-col justify-center itmes-center my-10  w-full">
               <h1 className="text-3xl font-playfair text-center">Google Map Loction</h1>
               <div className="flex my-5 justify-center items-center">
-                <span className="mr-2"><RiUserLocationFill/></span><a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7"> Nungua Coco Beach, Opposite Blackmama Resort </a>
+                <span className="mr-2"><RiUserLocationFill/></span><a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7" target="_blank"> Nungua Coco Beach, Opposite Blackmama Resort </a>
               </div>
               <div className="flex justify-center items-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d221.35825740686576!2d-0.09106637436764563!3d5.5852956244977685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sgh!4v1778637177325!5m2!1sen!2sgh" width="600" height="450" style={{border: 0}} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
