@@ -74,12 +74,12 @@ export const featuredRooms = [
         value: ApartmentWashroom,
       },
       {
-        name: "ApartmentBedroom",
-        value: ApartmentBedroom,
-      },
-      {
         name: "ApartmentKite",
         value: ApartmentKite,
+      },
+      {
+        name: "ApartmentBedroom",
+        value: ApartmentBedroom,
       },
     ],
     roomCommonData: [
