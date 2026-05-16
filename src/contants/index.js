@@ -70,16 +70,16 @@ export const featuredRooms = [
         value: ApartmentOutdoor,
       },
       {
-        name: "ApartmentWashroom",
-        value: ApartmentWashroom,
-      },
-      {
         name: "ApartmentKite",
         value: ApartmentKite,
       },
       {
         name: "ApartmentBedroom",
         value: ApartmentBedroom,
+      },
+      {
+        name: "ApartmentWashroom",
+        value: ApartmentWashroom,
       },
     ],
     roomCommonData: [
