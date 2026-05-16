@@ -3,7 +3,7 @@ import ApartmentBedroom from "../assets/ApartmentBedroom.png";
 import OpenhallApartment from "../assets/OpenhallApartment.png";
 import ApartmentOutdoor from "../assets/ApartmentOutdoor.png";
 import ApartmentKite from "../assets/ApartmentKite.jpeg";
-import room1Bed from "../assets/room1Bed.jpeg";
+import room1Bed from "../assets/room1Bed.jpg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
 import room2Bed from "../assets/room2Bed.jpeg";
