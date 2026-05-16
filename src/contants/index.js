@@ -2,7 +2,7 @@ import fronView from "../assets/frontView.png";
 import ApartmentBedroom from "../assets/ApartmentBedroom.png";
 import OpenhallApartment from "../assets/OpenhallApartment.png";
 import ApartmentOutdoor from "../assets/ApartmentOutdoor.png";
-import ApartmentWashroom from "../assets/ApartmentWashroom.png";
+import ApartmentKite from "../assets/ApartmentKite.jpeg";
 import room1Bed from "../assets/room1Bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
@@ -69,8 +69,8 @@ export const featuredRooms = [
         value: ApartmentOutdoor,
       },
       {
-        name: "ApartmentWashroom",
-        value: ApartmentWashroom,
+        name: "ApartmentKite",
+        value: ApartmentKite,
       },
       {
         name: "ApartmentBedroom",
@@ -323,10 +323,3 @@ export const ContactInfo = [
     link: "https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7",
   },
 ];
-
-// </div>
-//           <p className="text-gray-600 mt-4 text-lg">Indulge in the epitome of luxury and comfort at BreevStay. Our meticulously designed rooms offer a haven of tranquility, where every detail is crafted to perfection. From plush bedding to elegant decor, we ensure that your stay with us is nothing short of extraordinary. Whether you're seeking a romantic getaway or a peaceful retreat, our rooms provide the perfect sanctuary for you to unwind and create unforgettable memories.</p>
-//           <p className="text-gray-600 mt-4 text-lg">At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.</p>
-//           <p className="text-gray-600 mt-4 text-lg">Discover the perfect blend of opulence and comfort at BreevStay, where every room is a sanctuary of indulgence. Whether you're here for a romantic escape or a leisurely retreat, our luxurious accommodations promise an unforgettable experience that will leave you longing to return.</p>
-//         </div>
-//       </div>
