@@ -2,6 +2,7 @@ import fronView from "../assets/frontView.png";
 import ApartmentBedroom from "../assets/ApartmentBedroom.png";
 import OpenhallApartment from "../assets/OpenhallApartment.png";
 import ApartmentOutdoor from "../assets/ApartmentOutdoor.png";
+import ApartmentWashroom from "../assets/ApartmentWashroom.png";
 import ApartmentKite from "../assets/ApartmentKite.jpg";
 import room1Bed from "../assets/room1Bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
@@ -52,7 +53,7 @@ export const HeroSection = [
 export const featuredRooms = [
   {
     id: "apartment1",
-    name: "Apartment in Nungua",
+    name: "One Bedroom Apartment ",
     descriptionCard:
       "A cozy single room apartment in Nungua near coco beach, 50 meters away from the beach with wifi, a kingsize bed and aircondition.",
     description2:
@@ -69,12 +70,16 @@ export const featuredRooms = [
         value: ApartmentOutdoor,
       },
       {
-        name: "ApartmentKite",
-        value: ApartmentKite,
+        name: "ApartmentWashroom",
+        value: ApartmentWashroom,
       },
       {
         name: "ApartmentBedroom",
         value: ApartmentBedroom,
+      },
+      {
+        name: "ApartmentKite",
+        value: ApartmentKite,
       },
     ],
     roomCommonData: [
