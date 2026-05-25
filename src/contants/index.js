@@ -17,6 +17,11 @@ import room2toilet from "../assets/room2toilet.jpeg";
 import room2bal from "../assets/room2bal.jpeg";
 import room2waredrope from "../assets/room2waredrope.jpeg";
 import room2Outside from "../assets/room2Outside.jpeg";
+import room3bed from "../assets/room3bed.jpeg";
+import room3chair from "../assets/room3chair.jpeg";
+import room3bal from "../assets/room3bal.jpeg";
+import room3toilet from "../assets/room3toilet.jpeg";
+import room3waredrope from "../assets/room3waredrope.jpeg";
 import freeWifiIcon from "../assets/freeWifiIcon.svg";
 import roomServiceIcon from "../assets/roomServiceIcon.svg";
 import homeIcon from "../assets/homeIcon.svg";
@@ -131,7 +136,7 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
     image: room1Bed,
     images: [
       {
-        name: "room1Ben  in nungua",
+        name: "room1Bed  in nungua",
         value: room1Bed,
       },
       {
@@ -262,24 +267,28 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
     description2:
       "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
     priceCents: "3500",
-    image: room1Bed,
+    image: room3bed,
     images: [
       {
-        name: "room1Ben  in nungua",
-        value: room1Bed,
+        name: "room3Bed  in nungua",
+        value: room3bed,
       },
       {
-        name: "room1Indoors  in nungua",
-        value: room1Indoors,
+        name: "room3toilet  in nungua",
+        value: room3toilet,
       },
       {
-        name: "room1Outdoor  in nungua",
-        value: room1Outdoor,
+        name: "room3bal  in nungua",
+        value: room3bal,
       },
-      // {
-      //   name: "ApartmentBedroom",
-      //   value: ApartmentBedroom,
-      // },
+      {
+        name: "room3waredrope  in nungua",
+        value: room3waredrope,
+      },
+      {
+        name: "room3chair  in nungua",
+        value: room3chair,
+      },
     ],
     roomCommonData: [
       {
