@@ -62,23 +62,23 @@ export const featuredRooms = [
     image: ApartmentBedroom,
     images: [
       {
-        name: "apartmentOpenHall",
+        name: "apartmentOpenHall in nungua",
         value: OpenhallApartment,
       },
       {
-        name: "ApartmentOutdoor",
+        name: "ApartmentOutdoor  in nungua",
         value: ApartmentOutdoor,
       },
       {
-        name: "ApartmentKite",
+        name: "ApartmentKite  in nungua",
         value: ApartmentKite,
       },
       {
-        name: "ApartmentBedroom",
+        name: "ApartmentBedroom  in nungua",
         value: ApartmentBedroom,
       },
       {
-        name: "ApartmentWashroom",
+        name: "ApartmentWashroom in nungua",
         value: ApartmentWashroom,
       },
     ],
@@ -123,15 +123,15 @@ export const featuredRooms = [
     image: room1Bed,
     images: [
       {
-        name: "room1Ben",
+        name: "room1Ben  in nungua",
         value: room1Bed,
       },
       {
-        name: "room1Indoors",
+        name: "room1Indoors  in nungua",
         value: room1Indoors,
       },
       {
-        name: "room1Outdoor",
+        name: "room1Outdoor  in nungua",
         value: room1Outdoor,
       },
       // {
@@ -180,15 +180,15 @@ export const featuredRooms = [
     image: room2Bed,
     images: [
       {
-        name: "room2Ben",
+        name: "room2Ben  in nungua",
         value: room2Bed,
       },
       {
-        name: "room2Indoors",
+        name: "room2Indoors  in nungua",
         value: room2Washroom,
       },
       {
-        name: "room1Outdoor",
+        name: "room2Outdoor  in nungua",
         value: room2Outside,
       },
       // {
@@ -237,15 +237,15 @@ export const featuredRooms = [
     image: room1Bed,
     images: [
       {
-        name: "room1Ben",
+        name: "room1Ben  in nungua",
         value: room1Bed,
       },
       {
-        name: "room1Indoors",
+        name: "room1Indoors  in nungua",
         value: room1Indoors,
       },
       {
-        name: "room1Outdoor",
+        name: "room1Outdoor  in nungua",
         value: room1Outdoor,
       },
       // {
