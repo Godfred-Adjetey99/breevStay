@@ -7,8 +7,8 @@ import ApartmentKite from "../assets/ApartmentKite.jpg";
 import room1Bed from "../assets/room1Bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
-import room1Washroom from "../assets/room1Washroom.jpeg";
 import room1toilet from "../assets/room1toilet.jpeg";
+import room1washroom from "../assets/room1washroom.jpeg";
 import room1waredrope from "../assets/room1waredrope.jpeg";
 import room1bal from "../assets/room1bal.jpeg";
 import room2Bed from "../assets/room2Bed.jpeg";
@@ -127,7 +127,7 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
   },
   {
     id: "room1",
-    name: "2 Adult Room",
+    name: "Room For 2 Adults",
     descriptionCard:
       "A cozy single room with a balcony in the heart of the city and closer to the beach.",
     description2:
@@ -153,7 +153,7 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
       },
       {
         name: "room1Washroom  in nungua",
-        value: room1Washroom,
+        value: room1washroom,
       },
       {
         name: "room1waredrope  in nungua",
@@ -196,7 +196,7 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
   },
   {
     id: "room2",
-    name: "2 Adult Room",
+    name: "Room For 2 Adults",
     descriptionCard:
       "A cozy single room with a balcony in the heart of the city and closer to the beach.",
     description2:
@@ -261,7 +261,7 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
   },
   {
     id: "room3",
-    name: "2 Adult Room",
+    name: "Room For 2 Adults",
     descriptionCard:
       "A cozy single room with a balcony in the heart of the city and closer to the beach.",
     description2:
