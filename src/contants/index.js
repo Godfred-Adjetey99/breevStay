@@ -10,8 +10,12 @@ import room1Outdoor from "../assets/room1Outdoor.jpeg";
 import room1Washroom from "../assets/room1Washroom.jpeg";
 import room1toilet from "../assets/room1toilet.jpeg";
 import room1waredrope from "../assets/room1waredrope.jpeg";
+import room1bal from "../assets/room1bal.jpeg";
 import room2Bed from "../assets/room2Bed.jpeg";
 import room2Washroom from "../assets/room2Washroom.jpeg";
+import room2toilet from "../assets/room2toilet.jpeg";
+import room2bal from "../assets/room2bal.jpeg";
+import room2waredrope from "../assets/room2waredrope.jpeg";
 import room2Outside from "../assets/room2Outside.jpeg";
 import freeWifiIcon from "../assets/freeWifiIcon.svg";
 import roomServiceIcon from "../assets/roomServiceIcon.svg";
@@ -150,6 +154,10 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
         name: "room1waredrope  in nungua",
         value: room1waredrope,
       },
+      {
+        name: "room1bal  in nungua",
+        value: room1bal,
+      },
     ],
     roomCommonData: [
       {
@@ -203,10 +211,18 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
         name: "room2Outdoor  in nungua",
         value: room2Outside,
       },
-      // {
-      //   name: "ApartmentBedroom",
-      //   value: ApartmentBedroom,
-      // },
+      {
+        name: "room2toilet  in nungua",
+        value: room2toilet,
+      },
+      {
+        name: "room2bal  in nungua",
+        value: room2bal,
+      },
+      {
+        name: "room2waredrope  in nungua",
+        value: room2waredrope,
+      },
     ],
     roomCommonData: [
       {
