@@ -35,7 +35,7 @@ const RoomDetails = () => {
       </div>
       <div className="grid grid-cols-2 gap-4 lg:w-1/2 w-full">
         {room?.images.length > 1 && room.images.map((image,index) => (
-          <img onClick={() => setMainImage(image.value)} key={index} src={image.value} alt={room?.name} 
+          <img onClick={() => setMainImage(image.value)} key={index} src={image.value} alt={room?.name}
           className={`w-full rounded-xl shadow-md object-cover cursor-pointer ${mainImage === image.value && 'outline-3 outline-orange-500'}`} />  
         ))}
         

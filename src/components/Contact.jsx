@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const Contact = () => {
   return (
     <section className="flex flex-col justify-center items-center px-10 bg-gray-50 w-full" id="contact">
-      <Title title="Contact" subtitle="" />
+      <Title title="Contact" subtitle="For More Information Call or Email" />
       <div className="flex flex-wrap pt-7 pb-30">
         {ContactInfo.map((item) => (
       <div className="flex justify-center items-center">

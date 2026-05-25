@@ -7,6 +7,9 @@ import ApartmentKite from "../assets/ApartmentKite.jpg";
 import room1Bed from "../assets/room1Bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
+import room1Washroom from "../assets/room1Washroom.jpeg";
+import room1toilet from "../assets/room1toilet.jpeg";
+import room1waredrope from "../assets/room1waredrope.jpeg";
 import room2Bed from "../assets/room2Bed.jpeg";
 import room2Washroom from "../assets/room2Washroom.jpeg";
 import room2Outside from "../assets/room2Outside.jpeg";
@@ -55,9 +58,10 @@ export const featuredRooms = [
     id: "apartment1",
     name: "One Bedroom Apartment ",
     descriptionCard:
-      "A cozy single room apartment in Nungua near coco beach, 50 meters away from the beach with wifi, a kingsize bed and aircondition.",
-    description2:
-      "Indulge in the epitome of luxury and comfort at BreevStay. Our meticulously designed rooms offer a haven of tranquility, where every detail is crafted to perfection. From plush bedding to elegant decor, we ensure that your stay with us is nothing short of extraordinary. Whether you're seeking a romantic getaway or a peaceful retreat, our rooms provide the perfect sanctuary for you to unwind and create unforgettable memories and it has a perfect view to the sea straight from your balcony, ",
+      "This beachside apartment offers a comfortable and tranquil stay along the beach",
+    description2: `This beachside apartment offers a comfortable and tranquil stay along the soft, golden sands of Coco Beach, a shoreline stretching approximately 1.5 kilometers. Guests can enjoy the natural coastal environment, with opportunities for surfing and for accompanying local fishermen on their traditional boats, providing an authentic insight into daily maritime life. The beachfront maintains a calm yet naturally active atmosphere, characteristic of Accra’s coast, and includes essential amenities such as lifeguards, bathroom facilities, and a beachside bar for added convenience. From the apartment, the sea view enhances the serene setting, while the gentle sound of the waves at night and the soft sea breeze create a refreshing and peaceful ambiance throughout the stay. Please send a message to us, our contact details are in the automatic reply. We request payment before arrival, because we directly pay our share to booking. Payment through booking does not exist yet for Ghana.
+I was born in Ghana, but I moved to Belgium in my early twenties, where I spent most of my adult life. After many years abroad, I decided it was time to come back home. I’m a chatty, warm person who enjoys meeting new people, and I’m happy to welcome guests who want to experience Ghana the way I’ve always known it—friendly, open, and full of life.
+The apartment is located in a calm coastal area near Coco Beach, offering a pleasant balance between quiet seaside living and the natural liveliness of Accra’s shoreline. The beachfront has a relaxed but active atmosphere, typical of this part of the city. Although the area feels somewhat tucked away, it still maintains what visitors describe as an “out‑of‑the‑way atmosphere in the centre of Accra,” making it easy to enjoy peace while remaining connected to the city. From this neighbourhood, guests can easily reach other parts of Accra, including cultural landmarks, markets, and essential services, ensuring smooth access to the wider city without losing the comfort of a quieter coastal environment`,
     priceCents: "5500",
     image: ApartmentBedroom,
     images: [
@@ -114,7 +118,7 @@ export const featuredRooms = [
   },
   {
     id: "room1",
-    name: "Single Room 1",
+    name: "2 Adult Room",
     descriptionCard:
       "A cozy single room with a balcony in the heart of the city and closer to the beach.",
     description2:
@@ -134,10 +138,18 @@ export const featuredRooms = [
         name: "room1Outdoor  in nungua",
         value: room1Outdoor,
       },
-      // {
-      //   name: "ApartmentBedroom",
-      //   value: ApartmentBedroom,
-      // },
+      {
+        name: "room1toilet  in nungua",
+        value: room1toilet,
+      },
+      {
+        name: "room1Washroom  in nungua",
+        value: room1Washroom,
+      },
+      {
+        name: "room1waredrope  in nungua",
+        value: room1waredrope,
+      },
     ],
     roomCommonData: [
       {
@@ -171,7 +183,7 @@ export const featuredRooms = [
   },
   {
     id: "room2",
-    name: "Single Room 2",
+    name: "2 Adult Room",
     descriptionCard:
       "A cozy single room with a balcony in the heart of the city and closer to the beach.",
     description2:
@@ -228,7 +240,7 @@ export const featuredRooms = [
   },
   {
     id: "room3",
-    name: "Single Room 3",
+    name: "2 Adult Room",
     descriptionCard:
       "A cozy single room with a balcony in the heart of the city and closer to the beach.",
     description2:
