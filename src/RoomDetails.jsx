@@ -31,12 +31,12 @@ const RoomDetails = () => {
       <div className="flex flex-col lg:flex-row gap-6 mt-6">
       <div className="lg:w-1/2 w-full">
         <img src={mainImage} alt={room?.name}
-        className="w-full shadow-lg rounded-xl object-cover" />
+        className="w-full shadow-lg rounded-xl object-cover" loading="lazy" />
       </div>
       <div className="grid grid-cols-2 gap-4 lg:w-1/2 w-full">
         {room?.images.length > 1 && room.images.map((image,index) => (
           <img onClick={() => setMainImage(image.value)} key={index} src={image.value} alt={room?.name}
-          className={`w-full rounded-xl shadow-md object-cover cursor-pointer ${mainImage === image.value && 'outline-3 outline-orange-500'}`} />  
+          className={`w-full rounded-xl shadow-md object-cover cursor-pointer ${mainImage === image.value && 'outline-3 outline-orange-500'}`}  loading="lazy"/>  
         ))}
         
       </div>
@@ -65,7 +65,7 @@ const RoomDetails = () => {
             <div className="mt-25 space-y-4 mb-5">
               {room.roomCommonData.map((item,index) => (
                 <div key={index} className="flex flex-start gap-2" >
-                  <img src={item.icon} alt={item.title} className="w-6.5" />
+                  <img src={item.icon} alt={item.title} className="w-6.5" loading="lazy"/>
                   <div>
                     <p className="text-base">{item.title}</p>
                     <p className="text-gray-500">{item.description}</p>
