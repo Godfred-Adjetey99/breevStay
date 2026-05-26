@@ -4,6 +4,9 @@ import OpenhallApartment from "../assets/OpenhallApartment.png";
 import ApartmentOutdoor from "../assets/ApartmentOutdoor.png";
 import ApartmentWashroom from "../assets/ApartmentWashroom.png";
 import ApartmentKite from "../assets/ApartmentKite.jpg";
+import apartmentswashroom1 from "../assets/apartmentswashroom1.jpeg";
+import apartmentbath from "../assets/apartmentbath.jpeg";
+import apartmenttoilet from "../assets/apartmenttoilet.jpeg";
 import room1Bed from "../assets/room1Bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
@@ -93,6 +96,18 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
       {
         name: "ApartmentWashroom in nungua",
         value: ApartmentWashroom,
+      },
+      {
+        name: "ApartmentWashroom1 in nungua",
+        value: apartmentswashroom1,
+      },
+      {
+        name: "ApartmentBath in nungua",
+        value: apartmentbath,
+      },
+      {
+        name: "ApartmentToilet in nungua",
+        value: apartmenttoilet,
       },
     ],
     roomCommonData: [
@@ -263,7 +278,7 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
     id: "room3",
     name: "Room For 2 Adults",
     descriptionCard:
-      "A cozy single room with a balcony in the heart of the city and closer to the beach.",
+      "A cozy room for two adults with a balcony in the heart of the city and closer to the beach.",
     description2:
       "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
     priceCents: "3500",
