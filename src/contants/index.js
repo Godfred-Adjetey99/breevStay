@@ -144,7 +144,7 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
     id: "room1",
     name: "Room For 2 Adults",
     descriptionCard:
-      "A cozy single room with a balcony in the heart of the city and closer to the beach.",
+      "A cozy room for two adults with a balcony in the heart of the city and closer to the beach.",
     description2:
       "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
     priceCents: "3500",
@@ -213,7 +213,7 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
     id: "room2",
     name: "Room For 2 Adults",
     descriptionCard:
-      "A cozy single room with a balcony in the heart of the city and closer to the beach.",
+      "A cozy room for two adults with a balcony in the heart of the city and closer to the beach.",
     description2:
       "Discover the perfect blend of opulence and comfort at BreevStay in nungua coco beach, where every room is a sanctuary of indulgence. Whether you're here for a romantic escape or a leisurely retreat, our luxurious accommodations promise an unforgettable experience that will leave you longing to return.",
     priceCents: "3500",
