@@ -14,7 +14,6 @@ import room1Outdoor from "../assets/room1Outdoor.jpeg";
 import room1toilet from "../assets/room1toilet.png";
 import room1washroom from "../assets/room1washroom.png";
 import room1waredrope from "../assets/room1waredrope.png";
-import room1bal from "../assets/room1bal.jpeg";
 import room2Bed from "../assets/room2Bed.jpeg";
 import room2Washroom from "../assets/room2Washroom.jpeg";
 import room2toilet from "../assets/room2toilet.jpeg";
@@ -179,10 +178,6 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
       {
         name: "room1waredrope  in nungua",
         value: room1waredrope,
-      },
-      {
-        name: "room1bal  in nungua",
-        value: room1bal,
       },
     ],
     roomCommonData: [
