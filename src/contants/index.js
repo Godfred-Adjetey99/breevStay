@@ -7,12 +7,13 @@ import ApartmentKite from "../assets/ApartmentKite.jpg";
 import apartmentswashroom1 from "../assets/apartmentswashroom1.jpeg";
 import apartmentbath from "../assets/apartmentbath.png";
 import apartmenttoilet from "../assets/apartmenttoilet.png";
-import room1Bed from "../assets/room1Bed.jpeg";
+import room1bed from "../assets/room1bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
+import room1sit from "../assets/room1sit.png";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
-import room1toilet from "../assets/room1toilet.jpeg";
-import room1washroom from "../assets/room1washroom.jpeg";
-import room1waredrope from "../assets/room1waredrope.jpeg";
+import room1toilet from "../assets/room1toilet.png";
+import room1washroom from "../assets/room1washroom.png";
+import room1waredrope from "../assets/room1waredrope.png";
 import room1bal from "../assets/room1bal.jpeg";
 import room2Bed from "../assets/room2Bed.jpeg";
 import room2Washroom from "../assets/room2Washroom.jpeg";
@@ -148,11 +149,11 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
     description2:
       "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
     priceCents: "3500",
-    image: room1Bed,
+    image: room1bed,
     images: [
       {
         name: "room1Bed  in nungua",
-        value: room1Bed,
+        value: room1bed,
       },
       {
         name: "room1Indoors  in nungua",
@@ -163,13 +164,18 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
         value: room1Outdoor,
       },
       {
-        name: "room1toilet  in nungua",
-        value: room1toilet,
+        name: "room1sit  in nungua",
+        value: room1sit,
       },
       {
         name: "room1Washroom  in nungua",
         value: room1washroom,
       },
+      {
+        name: "room1toilet  in nungua",
+        value: room1toilet,
+      },
+
       {
         name: "room1waredrope  in nungua",
         value: room1waredrope,
