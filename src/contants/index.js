@@ -5,8 +5,8 @@ import ApartmentOutdoor from "../assets/ApartmentOutdoor.png";
 import ApartmentWashroom from "../assets/ApartmentWashroom.png";
 import ApartmentKite from "../assets/ApartmentKite.jpg";
 import apartmentswashroom1 from "../assets/apartmentswashroom1.jpeg";
-import apartmentbath from "../assets/apartmentbath.jpeg";
-import apartmenttoilet from "../assets/apartmenttoilet.jpeg";
+import apartmentbath from "../assets/apartmentbath.png";
+import apartmenttoilet from "../assets/apartmenttoilet.png";
 import room1Bed from "../assets/room1Bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
@@ -373,10 +373,14 @@ export const ContactInfo = [
     value: "breevstay1@gmail.com",
     link: "https://breevstay1@gmail.com",
   },
-  { name: "Phone", value: "+233 550906480", link: "" },
+  { name: "Phone", value: "+233 55 090 6480", link: "" },
   {
     name: "Address",
-    value: "Coco Beach Opposite Blackmama Resort, Nungua , Ghana",
+    value: "Coco Beach Near Coco De Villa, Nungua , Ghana",
     link: "https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7",
+  },
+  {
+    name: "What's App Number",
+    value: "+233 53 194 2154",
   },
 ];
