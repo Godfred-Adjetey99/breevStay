@@ -14,17 +14,16 @@ import room1Outdoor from "../assets/room1Outdoor.jpeg";
 import room1toilet from "../assets/room1toilet.png";
 import room1washroom from "../assets/room1washroom.png";
 import room1waredrope from "../assets/room1waredrope.png";
-import room2Bed from "../assets/room2Bed.jpeg";
-import room2Washroom from "../assets/room2Washroom.jpeg";
-import room2toilet from "../assets/room2toilet.jpeg";
-import room2bal from "../assets/room2bal.jpeg";
-import room2waredrope from "../assets/room2waredrope.jpeg";
-import room2Outside from "../assets/room2Outside.jpeg";
-import room3bed from "../assets/room3bed.jpeg";
-import room3chair from "../assets/room3chair.jpeg";
-import room3bal from "../assets/room3bal.jpeg";
-import room3toilet from "../assets/room3toilet.jpeg";
-import room3waredrope from "../assets/room3waredrope.jpeg";
+import room2bed from "../assets/room2bed.png";
+import room2washroom from "../assets/room2washroom.png";
+import room2toilet from "../assets/room2toilet.png";
+import room2bal from "../assets/room2bal.png";
+import room2waredrope from "../assets/room2waredrope.png";
+import room3bed from "../assets/room3bed.png";
+import room3bal from "../assets/room3bal.png";
+import room3toilet from "../assets/room3toilet.png";
+import room3washroom1 from "../assets/room3washroom1.png";
+import room3washroom from "../assets/room3washroom.png";
 import freeWifiIcon from "../assets/freeWifiIcon.svg";
 import roomServiceIcon from "../assets/roomServiceIcon.svg";
 import homeIcon from "../assets/homeIcon.svg";
@@ -218,20 +217,17 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
     description2:
       "Discover the perfect blend of opulence and comfort at BreevStay in nungua coco beach, where every room is a sanctuary of indulgence. Whether you're here for a romantic escape or a leisurely retreat, our luxurious accommodations promise an unforgettable experience that will leave you longing to return.",
     priceCents: "3500",
-    image: room2Bed,
+    image: room2bed,
     images: [
       {
-        name: "room2Ben  in nungua",
-        value: room2Bed,
+        name: "room2Bed  in nungua",
+        value: room2bed,
       },
-      {
-        name: "room2Indoors  in nungua",
-        value: room2Washroom,
-      },
-      {
-        name: "room2Outdoor  in nungua",
-        value: room2Outside,
-      },
+
+      // {
+      //   name: "room2Outdoor  in nungua",
+      //   value: room2Outside,
+      // },
       {
         name: "room2toilet  in nungua",
         value: room2toilet,
@@ -243,6 +239,10 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
       {
         name: "room2waredrope  in nungua",
         value: room2waredrope,
+      },
+      {
+        name: "room2washroom in nungua",
+        value: room2washroom,
       },
     ],
     roomCommonData: [
@@ -290,20 +290,20 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
         value: room3bed,
       },
       {
-        name: "room3toilet  in nungua",
-        value: room3toilet,
-      },
-      {
         name: "room3bal  in nungua",
         value: room3bal,
       },
       {
-        name: "room3waredrope  in nungua",
-        value: room3waredrope,
+        name: "room3washroom  in nungua",
+        value: room3washroom,
       },
       {
-        name: "room3chair  in nungua",
-        value: room3chair,
+        name: "room3washroom1  in nungua",
+        value: room3washroom1,
+      },
+      {
+        name: "room3toilet  in nungua",
+        value: room3toilet,
       },
     ],
     roomCommonData: [
