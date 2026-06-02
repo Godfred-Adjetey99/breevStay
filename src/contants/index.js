@@ -7,7 +7,7 @@ import ApartmentKite from "../assets/ApartmentKite.jpg";
 import apartmentswashroom1 from "../assets/apartmentswashroom1.jpeg";
 import apartmentbath from "../assets/apartmentbath.png";
 import apartmenttoilet from "../assets/apartmenttoilet.png";
-import room1bed from "../assets/room1bed.jpeg";
+import room1Bed from "../assets/room1Bed.jpeg";
 import room1Indoors from "../assets/room1Indoors.jpeg";
 import room1Outdoor from "../assets/room1Outdoor.jpeg";
 import room1sit from "../assets/room1sit.png";
@@ -147,11 +147,11 @@ The apartment is located in a calm coastal area near Coco Beach, offering a plea
     description2:
       "At BreevStay, we believe that luxury is not just a service, but an experience. Our dedicated staff is committed to providing personalized attention and exceptional hospitality to ensure that your stay exceeds your expectations. From the moment you step through our doors, you'll be enveloped in an atmosphere of elegance and sophistication, where every need is anticipated and every desire is fulfilled.",
     priceCents: "3500",
-    image: room1bed,
+    image: room1Bed,
     images: [
       {
         name: "room1Bed  in nungua",
-        value: room1bed,
+        value: room1Bed,
       },
       {
         name: "room1Indoors  in nungua",
