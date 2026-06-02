@@ -381,7 +381,7 @@ export const ContactInfo = [
     link: "https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7",
   },
   {
-    name: "What's App Number",
+    name: "WhatsApp Number",
     value: "+233 53 194 2154",
   },
 ];

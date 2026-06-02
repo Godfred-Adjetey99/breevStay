@@ -25,7 +25,7 @@ const RoomDetails = () => {
 
       <div className="flex items-center gap-2 mt-4 text-gray-500">
         
-        <a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7" target="_blank">Nungua Coco Beach, Opposite Blackmama Resort </a><RiUserLocationFill />
+        <a href="https://maps.app.goo.gl/NX5n7vjBGt2sJYTp7" target="_blank">Coco Beach Near Coco De Villa, Nungua </a><RiUserLocationFill />
       </div>
       
       <div className="flex flex-col lg:flex-row gap-6 mt-6">
